@@ -5,7 +5,7 @@ $user = "root";
 $password = "";
 $database = "ivy_ambitions";
 
-$rootDirectory = "/IvyAmbitions";
+$rootDirectory = "/IvyAmbition/IvyAmbitions";
 
 
 ?>

@@ -15,7 +15,7 @@ if  (isset($_SESSION['user_id'])){
 }
 
 // Needs to be syncronized with configuration value of $rootDirectory
-$config =  $_SERVER['DOCUMENT_ROOT'].'/IvyAmbitions/config.php';
+$config =  $_SERVER['DOCUMENT_ROOT'].'/IvyAmbition/IvyAmbitions/config.php';
 include $config;
 
 $userName= null;
@@ -38,7 +38,6 @@ if (isset($_SESSION['user_id']))
 		$stmt->bind_result($userName);
 		while ($row = $stmt->fetch())
 		{
-			echo ' WELCOME '. $userName;
 		}
 	}
 }
@@ -57,7 +56,7 @@ if (isset($_SESSION['user_id']))
 				<nav class="navbar top-navigation">
 					<div class="logo">
 						<a href="<?php echo $rootDirectory?>/index.php" title="Visit Ivy Ambitions Homepage">
-							<img src="/IvyAmbitions/images/ivy-ambitions-logo-v2.png" alt="Ivy Ambitions" width="105" />
+							<img src="<?php echo $rootDirectory?>/images/ivy-ambitions-logo-v2.png" alt="Ivy Ambitions" width="105" />
 						</a>
 					</div>
 					<ul class="nav-tabs-left">
@@ -69,10 +68,16 @@ if (isset($_SESSION['user_id']))
 						<ul class="nav-tabs-right">	
 						<?php  if (!isset($userName)) {?>
 							<li>
-							<a href="<?php echo $rootDirectory?>/login_content/login.php" >Login</a>
+							<a href="<?php echo $rootDirectory?>/login_content/login_screen.php" >Login</a>
 							</li>
+							<?php  } else { echo 'Welcome '. $userName;  ?>
+							
+							<a href="<?php echo $rootDirectory?>/login_content/logoff.php" >Sign Out</a>
+							
+							
+							<?php  }?>
+							
 							<li><a title="Schedule a FREE Consultation" href="<?php echo $rootDirectory?>/contact.php">Contact Us Today!</a></li>
-						<?php  } else { echo 'Welcome '. $userName; }?>
 						
 						</ul>
 					</span>
