@@ -1,0 +1,141 @@
+/*---------------------------------
+	home.css
+-----------------------------------*/
+/* This file contains all styles used throughout the Ivy Ambitions homepage */
+
+/*Homepage styles*/
+
+.rotating-photo-wrapper{
+}
+#rotating-photos{
+	position:absolute;
+}
+#large-down-arrow-container{
+	height:33px;
+	text-align:center;
+}
+#large-down-arrow-container #large-down-arrow{
+	display:inline-block;
+}
+.home-photo-content{
+	margin-top:7.6em;
+	display:block;
+}
+.home-bottom-content, .home-bottom-content a{
+	background-color:#c2b270;
+	color:#efefef;
+	text-decoration:none;
+	font-family:MyriadPro-Regular,'Myriad Pro Regular',MyriadPro,'Myriad Pro',Helvetica,Arial,sans-serif;
+	width: 100%;
+	text-align: center;
+}
+.box-content{
+	color:#efefef;
+	transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-webkit-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+}
+.box-content:hover{
+	color:#fff;
+	transition: .5s ease-in;
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+}
+.home-bottom-content #left-content-box{
+	width:33%;
+	border-top:10px solid #dbcb8c;
+	float:left;
+	transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-webkit-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+}
+.home-bottom-content #center-content-box{
+	width:34%;
+	border-top:10px solid #dbcb8c;
+	float:left;
+	transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-webkit-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+}
+.home-bottom-content #right-content-box{
+	width:33%;
+	border-top:10px solid #dbcb8c;
+	float:left;
+	transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-webkit-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+}
+.home-bottom-content #left-content-box:hover, .home-bottom-content #center-content-box:hover, .home-bottom-content #right-content-box:hover{
+	border-top:10px solid #7a0026;
+	transition: .5s ease-in;
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+}
+
+.home-bottom-content #left-content-box .box-content{
+	border-right:1px solid #a59966;
+}
+.home-bottom-content #right-content-box .box-content{
+	border-left:1px solid #a59966;
+}
+.home-bottom-content .box-content{
+	padding:10px 5px 20px 15px;
+}
+.home-bottom-content .box-header{
+	font-size:20px;
+	text-align:center;
+	margin-top:15px;
+	line-height:26px;
+	color:#fff;
+}
+.box-icon-text-container-left, .box-icon-text-container-center, .box-icon-text-container-right{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 80%;
+}
+.home-bottom-content .box-text{
+	padding-top:12px;
+	font-size:14px;
+	text-align:left;
+}
+.home-bottom-content .box-icon-left{
+	background:url('../images/sound-bubble-icon.png');
+	display:block;
+	width:81px;
+	height:66px;
+	float:left;
+	margin-top:5px;
+	margin-right:15px;
+}
+.home-bottom-content .box-icon-center{
+	background:url('../images/results-icon.png');
+	display:block;
+	width:83px;
+	height:67px;
+	float:left;
+	margin-top:5px;
+	margin-right:15px;
+}
+.home-bottom-content .box-icon-right{
+	background:url('../images/calendar-icon.png');
+	display:block;
+	width:58px;
+	height:66px;
+	float:left;
+	margin-top:5px;
+	margin-right:15px;
+}
+#gold-gradient{
+	background-image:url('../images/gold-gradient-slice.jpg');
+	background-repeat:repeat-x;
+	height:68px;
+	width:100%;
+}

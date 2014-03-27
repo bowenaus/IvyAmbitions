@@ -1,0 +1,92 @@
+/*---------------------------------
+	ivy-ambitions.css
+-----------------------------------*/
+/* This file contains all styles used throughout the secondary level pages */
+
+
+body{
+	/*overflow:hidden;*/ /*set this to auto at smaller-screen breakpoint */
+	background-color:#fff;
+}
+.page-wrapper{
+	background-color:#fff;
+}
+.top-navigation{
+	background-color:#444;
+}
+.sub-top-navigation{
+	background-color:#fff;
+	padding-left:175px;
+	color: #444;
+	left: 0;
+	position: fixed;
+	top: 3.3em;
+	width: 100%;
+	z-index: 10;
+}
+.sub-top-navigation li a{
+	color:#444;
+}
+.sub-top-navigation li a:hover{
+	color:#888;
+}
+.sub-top-navigation .active a:hover{
+	color:#888;
+	cursor:inherit;
+}
+.main-content-wrapper{
+	padding-top:140px;
+}
+.main-content-wrapper .text-wrapper, .main-content-wrapper .header-wrapper{
+	width:100%;
+}
+.main-content-wrapper .header-wrapper .header-border{
+	height:2px;
+	background-color:#ccc;
+	width:450px;
+}
+.main-content-wrapper .header-wrapper #other-service-links{
+	padding-top:10px;
+	padding-left:25px;
+	width:85%;
+	margin:0px auto;
+}
+.main-content-wrapper .header-wrapper .header-content{
+	width:85%;
+	margin:0px auto;
+}
+.main-content-wrapper .header-wrapper .header-content h1{
+	color:#7A0026;
+	font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+	font-size:2.5em;
+	float:left;
+}
+.main-content-wrapper h3{
+	font-size:1.4em;
+	color:#000;
+}
+.main-content-wrapper .header-wrapper .header-content .header-icon{
+	float:left;
+}
+.main-content-wrapper .content-wrapper .text-wrapper{
+	width:85%;
+	color:#444;
+	text-align:left;
+	margin:0px auto;
+	padding:0px 25px;
+}
+#elementary-middle-school, #medical-dental-school, #hourly-consultation, #instant-advice{
+	padding-top:6.8em;
+}
+#act-sat-focus-areas{
+	margin-left:20px;
+}
+.footer-wrapper{ /* fix footer always at bottom of screen */
+	width: 100%;
+	height:60px;
+	position:fixed;
+	bottom:0;
+}
+.footer-wrapper {
+    border-top: 1px solid #CCCCCC;
+}

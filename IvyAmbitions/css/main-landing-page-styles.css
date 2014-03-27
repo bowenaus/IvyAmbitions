@@ -1,0 +1,35 @@
+/*---------------------------------
+	ivy-ambitions.css
+-----------------------------------*/
+/* This file contains all styles used throughout the 3 landing pages: "What We Offer", "Our Story", "Resources" */
+
+
+body{
+	overflow:hidden; /*set this to auto at smaller-screen breakpoint */
+}
+.main-content-wrapper{
+	padding-top:165px;
+}
+.main-content-wrapper h1{
+	color:#fff;
+	text-align:center;
+	margin:0px;
+	font-family:MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+}
+.main-content-wrapper .text-wrapper{
+	background:rgba(0,0,0,0.5);
+	width:100%;
+}
+.main-content-wrapper .text-wrapper p{
+	width:65%;
+	padding:30px;
+	color:#EFEFEF;
+	text-align:center;
+	margin:0px auto;
+}
+.footer-wrapper{ /* fix footer always at bottom of screen */
+	width: 100%;
+	height:60px;
+	position:fixed;
+	bottom:0;
+}

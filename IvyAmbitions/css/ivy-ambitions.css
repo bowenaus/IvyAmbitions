@@ -1,0 +1,101 @@
+/*---------------------------------
+	ivy-ambitions.css
+-----------------------------------*/
+/* This file contains all global styles used throughout the Ivy Ambitions website */
+
+
+/*---------------------------------
+	navigation styles
+-----------------------------------*/
+.logo{
+	position: absolute;
+	top:5px;
+	left:60px;
+}
+.top-navigation{
+	border-bottom:1px solid #fff;
+	background:rgba(0,0,0,0.6);
+	padding-left:185px;
+}
+.sub-top-navigation{
+	background:rgba(0,0,0,0.3);
+	padding-left:175px;
+	color: #FFFFFF;
+	left: 0;
+	position: fixed;
+	top: 3.3em;
+	width: 100%;
+	z-index: 10;
+}
+.sub-top-navigation li a{
+	color: #EFEFEF;
+	display: inline-block;
+	font-size: 1em;
+	line-height: 100%;
+	padding: 1.2em 1.3em;
+	text-decoration: none;
+} 
+.nav-tabs-right{
+	float:right;
+}
+.nav-tabs-right-container ul{
+	margin-right:65px;
+}
+#submenu1, #submenu2, #submenu3{
+	display:none;
+	height:50px;
+}
+#hide-submenu-trigger{
+	width:100%;
+	position:fixed;
+	top:6.7em;
+	height:50px;
+	z-index:999;
+}
+
+
+
+/*---------------------------------
+	 Misc styles
+-----------------------------------*/
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.page-wrapper{
+	min-height:100%;
+	margin-bottom:-60px;
+}
+
+
+/*---------------------------------
+	 Footer styles
+-----------------------------------*/
+.page-wrapper:after{
+  content: "";
+  display: block;
+  height:60px;
+}
+.footer-wrapper{
+	padding:10px;
+	background-color:#fff;
+	height:60px;
+	font-size:0.8em;
+	width:100%;
+}
+.footer-wrapper .footer-left{
+	float:left;
+	padding-left:30px;
+}
+.footer-wrapper .footer-right{
+	float:right;
+	padding-right:30px;
+	padding-top:6px;
+}
+.footer-wrapper .social-media-icon{
+	padding:0px 3px;
+}
+.footer-wrapper #twitter-icon{
+}
